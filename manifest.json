@@ -1,0 +1,25 @@
+{
+  "name": "Test",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Test",
+  "permissions": [
+    "https://soundcloud.com",
+    "https://connect.soundcloud.com"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://soundcloud.com/*"
+      ],
+      "js": [
+        "sdk-3.1.2.js",
+        "background.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    "style.css"
+  ]
+}

@@ -1,0 +1,19 @@
+.audibleTile .soundcloud-btn{
+  outline: none;
+  position: absolute;
+  margin-top: 40px;
+  /*margin-left: 140px;
+  background-color: rgba(106,112,127, .9);
+  color: white;
+  border-radius: 15px;
+  border: 1px solid orange;*/
+  color: #f50 !important;
+  z-index: 100000;
+  cursor: pointer;
+}
+
+.soundActions .soundcloud-btn{
+  margin-top: 25px;
+  color: #f50 !important;
+  cursor: pointer;
+}
